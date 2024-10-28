@@ -1,0 +1,55 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    height: 100vh;
+    color: #FFF;
+}
+#container{
+    max-width: 350px;
+    height: 400px;
+    background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0) 100%), url('https://images.unsplash.com/photo-1606575220121-0860da41a3f3?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    border-radius: 16px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+}
+
+#increment-btn {
+    background: #57cc99;
+}
+
+#save-btn {
+    background: #38a3a5;
+}
+
+#reset-btn{
+    background: #22577a;
+}
